@@ -1,5 +1,5 @@
-python=3.10
--c conda-forge numpy
+--index-url https://download.pytorch.org/whl/cu128
+torch
+numpy
 pillow
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 matplotlib
