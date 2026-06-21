@@ -1,0 +1,13 @@
+name: nerf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pillow
+  - matplotlib
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu128
+      - torch
+      - torchvision
